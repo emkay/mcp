@@ -16,7 +16,6 @@ fn main() {
 
     let filenames: Vec<&str> = options.values_of("inputs").unwrap().collect();
 
-
     if let Some((first, files)) = filenames.split_first() {
         for file in files {
             let _ = fs::copy(first, file);
