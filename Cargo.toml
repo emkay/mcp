@@ -1,11 +1,11 @@
 [package]
 name = "mcp"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Michael Matuzak <mmatuzak@gmail.com>"]
 description = "copy multiple files"
 homepage = "https://github.com/emkay/mcp"
 readme = "README.md"
-keywords = [ "cp", "mcp" ]
+keywords = [ "copy", "files", "cp", "mcp" ]
 license = "MIT"
 
 [[bin]]
